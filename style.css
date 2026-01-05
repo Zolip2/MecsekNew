@@ -57,3 +57,35 @@
 .title h1{
     font-size: 4vw;
 }
+
+@media only screen and (max-width: 720px){
+    .header{
+        height: 5vw;
+    }
+
+    .header-container{
+        height: 5vw;
+    }
+
+    .header-container img{
+        height: 5vw;
+    }
+
+    .header-text{
+        font-size: 2vw;
+    }
+
+    .big-logo img{
+        width: 35vw;
+        margin-left: 32.1%;
+        margin-top: 8vw;
+    }
+
+    .title{
+        height: 20vw;
+    }
+
+    .title h1{
+        font-size: 6vw;
+    }
+}
