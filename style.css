@@ -68,6 +68,10 @@
     font-size: 4vw;
 }
 
+.rolunk-title{
+    font-size: 2vw;
+}
+
 .introduction-vid{
     display: flex;
     align-items: center;
@@ -75,7 +79,7 @@
     animation: appear linear;
     animation-timeline: view();
     animation-range: entry 0;
-    margin-top: 10vw;
+    margin-top: 3vw;
 }
 
 
@@ -90,6 +94,7 @@
         border-radius: 50%;
         transition: 0.1s;
         position: absolute;
+        position: sticky;
     }
 
     .header-container{
@@ -125,6 +130,10 @@
     }
     .introduction-vid{
         width: 100%;
-        margin-top: 60vw;
+        margin-top: 20vw;
+    }
+    .rolunk-title{
+        margin-top: 40vw;
+        font-size: 7vw;
     }
 }

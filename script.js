@@ -13,10 +13,11 @@ $("#middle").click(function(){
 
         if(logoClicked == 1){
             $(".header").css({
-                    "width" : "20vw",
+                    "width" : "25vw",
                     "border-radius" : "10%",
                     "height" : "60vw",
                     "position" : "absolute",
+                    "position" : "sticky",
                     "top" : "3vw",
                     "flex-direction" : "column",
                     "justify-content" : "baseline",
