@@ -136,6 +136,8 @@ body{
 
 @media (max-width: 1000px) {
 
+    /*-----------------------------------*/
+
     .sections{
         height: 100vh;
     }
@@ -176,6 +178,23 @@ body{
         top: 85%;
         left: 46.1%;
     }
+
+    /*------------------------------------------*/
+
+    #performersSection{
+        height: auto;
+    }
+
+    #performersText img{
+        width: 35%;
+    }
+
+    #performersGallery h1{
+        font-size: 7vw;
+    }
+
+
+    /*--------------------------------------------*/
 
 
 }
