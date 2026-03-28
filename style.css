@@ -119,6 +119,20 @@ body{
 #programsSection{
     background-color: #844796;
 }
+
+#programsHeader{
+    background-image: url(assets/1csillagos\ átmenet-11.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center -5.5vw;
+    width: 100%;
+    height: 16.5vw;
+}
+
+
+/*---------------------------------------*/
+
+
 #gallerySection{
     background-color: #844796;
 }
@@ -176,7 +190,7 @@ body{
 
     #star2{
         top: 85%;
-        left: 46.1%;
+        left: 45.1%;
     }
 
     /*------------------------------------------*/
