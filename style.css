@@ -100,6 +100,7 @@ body{
     display: flex;
     justify-content: right;
     position: relative;
+    height: 6.1vw;
 }
 
 #performersText img{
