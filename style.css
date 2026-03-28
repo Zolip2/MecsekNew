@@ -21,7 +21,7 @@ body{
 
 
 #titleLogo{
-    background-image: url(/assets/1-logo-11.png);
+    background-image: url(assets/1-logo-11.png);
     position: relative;
     top: -5%;
     left: 1%;
@@ -32,7 +32,7 @@ body{
 }
 
 #titleText{
-    background-image: url(/assets/1-felirat-11.png);
+    background-image: url(assets/1-felirat-11.png);
     position: relative;
     top: -4%;
     right: 6.5%;
