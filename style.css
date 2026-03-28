@@ -3,6 +3,21 @@
     src: url(assets/rogeu/Rogeu.ttf);
 }
 
+@keyframes rotatingStar {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.comingSoon{
+    color: yellow;
+    font-size: 4vw;
+    font-family: rogeu;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -84,10 +99,13 @@ body{
 #performersText{
     display: flex;
     justify-content: right;
+    position: relative;
 }
 
 #performersText img{
     width: 18%;
+    position: absolute;
+    right: 3vw;
 }
 
 #performersGallery{
@@ -99,11 +117,7 @@ body{
     text-align: center;
 }
 
-#performersGallery h1{
-    color: yellow;
-    font-size: 4vw;
-    font-family: rogeu;
-}
+
 
 #performersName{
     height: 20%;
@@ -118,15 +132,47 @@ body{
 
 #programsSection{
     background-color: #844796;
+    height: 46.5vw;
 }
 
 #programsHeader{
     background-image: url(assets/1csillagos\ átmenet-11.png);
+    position: relative;
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center -5.5vw;
     width: 100%;
     height: 16.5vw;
+}
+
+#programsHeader img{
+    
+    position: absolute;
+    width: 4vw;
+    top: 35.5%;
+    left: 77%;
+    animation: rotatingStar 5s linear infinite;
+}
+
+#programsText{
+    width: 100%;
+    position: relative;
+}
+
+#programsText img{
+    width: 23%;
+    position: absolute;
+    top: -8vw;
+    left: 5vw;
+}
+
+#programsGallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 64.6%;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -209,6 +255,20 @@ body{
 
 
     /*--------------------------------------------*/
+
+    #programsSection{
+        height: auto;
+    }
+
+    #programsText img{
+        width: 50%;
+    }
+
+    #programsGallery h1{
+        font-size: 7vw;
+    }
+
+    /*------------------------------------------------*/
 
 
 }
