@@ -93,7 +93,7 @@ body{
 #performersSection{
     background-color: #120E2A;
     height: 46.5vw;
-    box-shadow: 0 -2px 0 0 #120E2A;
+    box-shadow: 0 -5px 0 0 #120E2A;
 }
 
 #performersText{
@@ -134,7 +134,7 @@ body{
 #programsSection{
     background-color: #844796;
     height: 46.5vw;
-    box-shadow: 0 2px 0 0 #844796;
+    box-shadow: 0 5px 0 0 #844796;
 }
 
 #programsHeader{
@@ -145,7 +145,6 @@ body{
     background-position: center -5.5vw;
     width: 100%;
     height: 16.5vw;
-    box-shadow: 0 -2px 0 0 #120E2A;
 }
 
 #programsHeader img{
