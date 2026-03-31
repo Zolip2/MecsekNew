@@ -8,6 +8,11 @@
     src: url(assets/space_grotesk/otf/SpaceGrotesk-Bold.otf);
 }
 
+@font-face {
+    font-family: spaceGroteskMedium;
+    src: url(assets/space_grotesk/otf/SpaceGrotesk-Medium.otf);
+}
+
 
 @keyframes rotatingStar {
     0%{
@@ -36,7 +41,7 @@ body{
 .sections{
     width: 100%;
     height: 50.7vw;
-    box-shadow: 0 -2px 0 0 #844796;
+    /*box-shadow: 0 -2px 0 0 #844796;*/
     /*min-height: 500px;*/
     /*border: solid 1px magenta;*/
 }
@@ -206,15 +211,6 @@ body{
     background-color: #844796;
 }
 
-#supportSection{
-    background-color: #120E2A;
-}
-#contactSection{
-    background-color: #FDD839;
-}
-
-/*------------------------------------------*/
-
 #gallerySection{
     height: 51vw;
 }
@@ -254,6 +250,73 @@ body{
     color: #fdd839;
     font-family: spaceGroteskBold;
     font-size: 2vw;
+}
+/*-------------------------------------*/
+
+#supportSection{
+    background-color: #120E2A;
+}
+
+
+#supportGradient{
+
+    width: 100%;
+    height: 7vw;
+    background-image: linear-gradient(to top, #120E2A, #844796);
+
+}
+
+#supportText{
+
+    width: 100%;
+    height: 23vw;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 5vw;
+
+}
+
+#supportImg{
+
+    background-image: url(assets/feliratok-14.png);
+    background-size: contain;
+    width: 30vw;
+    height: 20vw;
+    background-repeat: no-repeat;
+    margin-left: -3vw;
+
+}
+
+#supportText p{
+
+    width:45vw;
+    color: white;
+    font-family: spaceGroteskMedium;
+    margin-top: 1.5vw;
+    padding: 0;
+    line-height: 3vw;
+    height: 21vw;
+    font-size: 1.4vw;
+
+}
+
+#supportStars{
+    width: 100%;
+    height: 15.8vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+#supportStars img{
+    height: 10vw;
+}
+
+
+/*----------------------------------------*/
+
+
+#contactSection{
+    background-color: #FDD839;
 }
 
 
@@ -361,5 +424,53 @@ body{
 
     /*-------------------------------------------------*/
 
+    #supportSection{
+        display: flex;
+        flex-direction: column;
+        height: 80vw;
+        align-items: center;
+    }
+
+
+    #supportText{
+        width: 100%;
+        height: 23vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5vw;
+    }
+
+    #supportImg{
+        background-size: contain;
+        background-position: center top;
+        width: 100%;
+        min-height: 20vw;
+        background-repeat: no-repeat;
+        margin-left: -35vw;
+    }
+
+    #supportText p{
+        font-size: 2vw;
+        width:60vw;
+        line-height: 5vw;
+        height: 30vw;
+        margin-left: 5vw;
+
+    }
+
+    #supportStars{
+        margin-top: 35vw;
+        height: 15.8vw;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #supportStars img{
+        height: 14vw;
+    }
+
+
+    /*--------------------------------------------------*/
 
 }
