@@ -1,6 +1,6 @@
 @font-face {
     font-family: rogeu;
-    src: url(assets/rogeu/Rogeu.ttf);
+    src: url(assets/rogeu/Rogeu.otf);
 }
 
 @font-face {
@@ -11,6 +11,11 @@
 @font-face {
     font-family: spaceGroteskMedium;
     src: url(assets/space_grotesk/otf/SpaceGrotesk-Medium.otf);
+}
+
+@font-face {
+    font-family: spaceGroteskLight;
+    src: url(assets/space_grotesk/otf/SpaceGrotesk-Light.otf);
 }
 
 
@@ -317,6 +322,58 @@ body{
 
 #contactSection{
     background-color: #FDD839;
+    height: 45vw;
+}
+
+#contactHeader{
+    background-image: url(assets/2csillagosátmenet-11.png);
+    position: relative;
+    background-size: 100.1vw auto;
+    background-repeat: no-repeat;
+    background-position: center -5.7vw;
+    width: 100%;
+    height: 14vw;
+    box-shadow: 0 -2px 0 0 #120E2A;
+    position: relative;
+}
+
+#contactHeader img{
+    width: 4.5vw;
+    position: absolute;
+    top: 5vw;
+    left: 18.5vw;
+    animation: rotatingStar 5s linear infinite reverse;
+}
+
+#contactText{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contactText h1{
+    margin-right: 7vw;
+    font-family: rogeu;
+    color: #844796;
+    font-size: 5vw;
+    height: fit-content;
+    margin-top: -2vw;
+}
+
+#contactContact{
+    height: fit-content;
+}
+
+#contactContact h2{
+    width: 40vw;
+    margin-left: 10vw;
+    font-size: 2vw;
+    line-height: 5vw;
+    font-family: spaceGroteskLight;
+    margin-top: 5vw;
+
 }
 
 
@@ -481,5 +538,28 @@ body{
 
 
     /*--------------------------------------------------*/
+
+    #contactText h1{
+        margin-right: 16vw;
+        font-family: rogeu;
+        color: #844796;
+        font-size: 9vw;
+        height: fit-content;
+        margin-top: -2vw;
+    }
+
+    #contactContact h2{
+        width: 55vw;
+        margin-left: 4vw;
+        font-size: 3vw;
+        line-height: 5vw;
+        font-family: spaceGroteskLight;
+        margin-top: 5vw;
+
+    }
+
+
+
+    /*---------------------------------------------------*/
 
 }
