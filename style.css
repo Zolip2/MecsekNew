@@ -427,8 +427,16 @@ body{
     #supportSection{
         display: flex;
         flex-direction: column;
-        height: 80vw;
+        height: 90vw;
         align-items: center;
+    }
+
+    #supportGradient{
+
+        width: 100%;
+        height: 17vw;
+        background-image: linear-gradient(to top, #120E2A, #844796);
+
     }
 
 
