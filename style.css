@@ -41,6 +41,12 @@ body{
     padding: 0;
 }
 
+#header{
+    height: 10vw;
+    width: 100%;
+    background-color: red;
+}
+
 
 /*------------------------------------------------*/
 .sections{
