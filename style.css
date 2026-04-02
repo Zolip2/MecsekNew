@@ -28,6 +28,17 @@
     }
 }
 
+@keyframes expandHeaderWindow {
+    0%{
+        height: 0vh;
+        width: 0;
+    }
+    100%{
+        height: 100vh;
+        width: 20vw;
+    }
+}
+
 .comingSoon{
     color: yellow;
     font-size: 4vw;
@@ -37,16 +48,24 @@
 }
 
 body{
+    
     margin: 0;
+    margin-top: 0vw;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #header{
-    height: 10vw;
+    height: 2.5vw;
     width: 100%;
-    background-color: red;
+    background-color: #120e2a;
+    position: sticky;
+    top: 0;
+    isolation: isolate;
+    z-index: 10;
+    display: flex;
+    justify-content: flex-end;
 }
-
 
 /*------------------------------------------------*/
 .sections{
@@ -74,7 +93,7 @@ body{
     background-size: 115%;
     background-repeat: no-repeat;
     width: 100%;
-    max-height: 47.5vw;
+    max-height: 50vw;
 }
 
 #titleText{
@@ -307,7 +326,7 @@ body{
     padding: 0;
     line-height: 3vw;
     height: 21vw;
-    font-size: 1.4vw;
+    font-size: 1.0vw;
 
 }
 
@@ -359,7 +378,7 @@ body{
 
 }
 
-#contactText h1{
+#contactText p{
     margin-right: 7vw;
     font-family: rogeu;
     color: #844796;
@@ -375,8 +394,8 @@ body{
 #contactContact h2{
     width: 40vw;
     margin-left: 10vw;
-    font-size: 2vw;
-    line-height: 5vw;
+    font-size: 1.2vw;
+    line-height: 4vw;
     font-family: spaceGroteskLight;
     margin-top: 5vw;
 
@@ -387,6 +406,10 @@ body{
 /*RESPONSIVE*/
 
 @media (max-width: 1000px) {
+
+    .comingSoon{
+        font-size: 8vw;
+    }
 
     /*-----------------------------------*/
 
@@ -455,7 +478,7 @@ body{
     }
 
     #programsText img{
-        width: 40%;
+        width:45%;
     }
 
     #programsGallery h1{
@@ -522,7 +545,7 @@ body{
     }
 
     #supportText p{
-        font-size: 3vw;
+        font-size: 2.5vw;
         width:60vw;
         line-height: 5vw;
         height: 30vw;
@@ -545,7 +568,7 @@ body{
 
     /*--------------------------------------------------*/
 
-    #contactText h1{
+    #contactText p{
         margin-right: 16vw;
         font-family: rogeu;
         color: #844796;
@@ -557,7 +580,7 @@ body{
     #contactContact h2{
         width: 55vw;
         margin-left: 4vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
         line-height: 5vw;
         font-family: spaceGroteskLight;
         margin-top: 5vw;
