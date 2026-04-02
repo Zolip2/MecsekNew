@@ -39,6 +39,10 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .comingSoon{
     color: yellow;
     font-size: 4vw;
@@ -62,9 +66,124 @@ body{
     position: sticky;
     top: 0;
     isolation: isolate;
-    z-index: 10;
+    z-index: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+#headerStar{
+    background-image: url(assets/második\ kör-15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 2%;
+    height: 2.5vw;
+    margin-right: auto;
+}
+
+#headerLines{
+    background-image: url(assets/második\ kör-19.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 3%;
+    height: 2.5vw;
+    z-index: 3;
+}
+
+#headerCircle{
+    background-image: url(assets/második\ kör-20.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 4%;
+    height: 2.5vw;
+    z-index: 3;
+}
+
+#headerWindow{
+    position: absolute;
+    width: 0vw;
+    height: 100vh;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #120E2A;
+    transition: 0.5s;
+}
+
+#headerWindowStar1{
+    left: 9vw;
+    top: -7vw;
+    background-image: url(assets/második\ kör-15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 30vw;
+    position: absolute;
+}
+
+#headerWindowStar2{
+    right: 15vw;
+    bottom: -25.2vw;
+    background-image: url(assets/második\ kör-15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 30vw;
+    position: absolute;
+}
+
+#headerWindowImg{
+    position: relative;
+    margin-top: 2vw;
+    background-image: url(assets/második\ kör-16.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 16vw;
+}
+
+#headerWindow a{
+    position: relative;
+    margin-bottom: 1.5vw;
+    margin-left: 3vw;
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: spaceGroteskMedium;
+    color: #fdd839;
+    z-index: 1;
+} 
+
+
+
+#overlay{
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+#animationTrigger{
+    display: none;
+}
+
+#animationTrigger:checked ~ #headerLines{
+    background-image: url(assets/második\ kör-13.png);
+    background-size: 80%;
+}
+
+#animationTrigger:checked ~ #headerCircle{
+    background-image: url(assets/második\ kör-14.png);
+    background-size: 68%;
+}
+
+#animationTrigger:checked ~ #headerWindow{
+    width: 20vw;
+}
+
+#animationTrigger:checked ~ #overlay{
+    width: 100%;
+    height: 100vh;
 }
 
 /*------------------------------------------------*/
