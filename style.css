@@ -526,6 +526,32 @@ body{
 
 @media (max-width: 1000px) {
 
+
+    #header{
+        height: 8vw;
+    }
+
+    #headerStar{
+        margin-top: 1.5vw;
+        width: 5vw;
+        height: 5vw;
+    }
+
+    #headerLines{
+        width: 8vw;
+        height: 8vw;
+        margin-top: -0.2vw;
+    }
+
+    #headerCircle{
+        width: 9vw;
+        height: 9vw;
+        margin-top: -0.7vw;
+    }
+
+
+
+
     .comingSoon{
         font-size: 8vw;
     }
