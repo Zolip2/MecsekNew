@@ -201,7 +201,7 @@ body{
     align-items: left;
     justify-content: space-around;
     background-color: #120E2A;
-    height: 52vw;
+    height: 54.5vw;
 }
 
 
@@ -265,7 +265,6 @@ body{
     justify-content: right;
     position: relative;
     height: 6.1vw;
-    
     
 }
 
@@ -386,6 +385,11 @@ body{
     height: 80%;
     width: 100%;
     text-align: center;
+}
+
+#galleryGallery iframe{
+    width: 50vw;
+    height: 30vw;
 }
 
 #galleryYear{
