@@ -132,6 +132,7 @@ body{
     width: 50%;
     height: 30vw;
     position: absolute;
+    transition: 0.5s;
 }
 
 #headerWindowImg{
@@ -526,6 +527,9 @@ body{
 
 @media (max-width: 1000px) {
 
+    body{
+        overflow-x: hidden;
+    }
 
     #header{
         height: 8vw;
@@ -549,8 +553,47 @@ body{
         margin-top: -0.7vw;
     }
 
+    #headerWindow{
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #headerWindowImg{
+        height: 30vw;
+        margin-bottom: 15vw;
+        margin-top: 10vw;
+    }
+
+    #headerWindow a{
+        margin-bottom: 3vw;
+        margin-left: 9vw;
+        font-size: 2.5vw;
+    }
+
+    #headerWindowStar1{
+        left: 25vw;
+        top: -15vw;
+        width: 80%;
+        height: 38vw;
+    }
+
+    #headerWindowStar2{
+        right: 38vw;
+        bottom: -18vw;
+        background-image: url(assets/második\ kör-15.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 30vw;
+        position: absolute;
+    }
+
+    
 
 
+    #animationTrigger:checked ~ #headerWindow{
+        width: 50vw;
+    }
 
     .comingSoon{
         font-size: 8vw;
