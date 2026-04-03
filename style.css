@@ -695,6 +695,11 @@ body{
         font-size: 4vw;
     }
 
+    #galleryGallery iframe{
+        width: 80vw;
+        height: 50vw;
+    }
+
 
     /*-------------------------------------------------*/
 
