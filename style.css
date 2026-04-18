@@ -465,6 +465,13 @@ body{
     height: 10vw;
 }
 
+#supportStars #flash{
+    height: 16vw;
+    margin-top: -2.5vw;
+}
+
+
+
 
 /*----------------------------------------*/
 
@@ -756,6 +763,11 @@ body{
 
     #supportStars img{
         height: 14vw;
+    }
+
+    #supportStars #flash{
+        height: 20vw;
+        margin-bottom: -13vw;
     }
 
 
